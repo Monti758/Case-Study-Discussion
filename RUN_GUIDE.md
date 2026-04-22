@@ -13,10 +13,17 @@ Follow these steps to run the services separately for development.
    ```bash
    cd backend
    ```
-2. Create a virtual environment:
-   ```bash
+2. Create and Activate a virtual environment:
+   ```powershell
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   # On Windows (PowerShell):
+   .\venv\Scripts\Activate.ps1
+   
+   # On Windows (Command Prompt):
+   venv\Scripts\activate
+   
+   # On macOS/Linux:
+   source venv/bin/activate
    ```
 3. Install dependencies:
    ```bash
