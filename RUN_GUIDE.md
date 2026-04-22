@@ -1,30 +1,12 @@
 # Execution Guide: CaseStudy Platform 🚀
 
-There are two ways to run the CaseStudy Platform: using **Docker** (recommended) or **Manual Installation**.
+This guide explains how to set up and run the CaseStudy Platform on your local machine.
 
 ---
 
-## Method 1: Using Docker (Recommended)
-This method handles all dependencies and networking automatically.
+## 🛠 Manual Installation (Development)
 
-### Prerequisites
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
-
-### Steps
-1. Open your terminal in the root directory (`Case-Study-Discussion`).
-2. Run the following command:
-   ```bash
-   docker-compose up --build
-   ```
-3. Wait for the containers to start.
-4. Open your browser:
-   - **Frontend**: [http://localhost:5173](http://localhost:5173)
-   - **Backend API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
-
----
-
-## Method 2: Manual Installation (Development)
-Use this method if you want to run the services without Docker for active development.
+Follow these steps to run the services separately for development.
 
 ### 1. Start the Backend (FastAPI)
 1. Navigate to the `backend` folder:

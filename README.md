@@ -4,9 +4,7 @@ A premium, full-stack interactive platform designed for academic and professiona
 
 ![Platform Preview](https://via.placeholder.com/1200x600/030712/818cf8?text=CaseStudy+Platform+v2.0)
 
-## 🚀 Quick Start (with Docker)
-
-The easiest way to get the platform running is using Docker Compose.
+## 🚀 Quick Start
 
 1. **Clone the repository**:
    ```bash
@@ -14,15 +12,8 @@ The easiest way to get the platform running is using Docker Compose.
    cd Case-Study-Discussion
    ```
 
-2. **Launch with Docker Compose**:
-   ```bash
-   docker-compose up --build
-   ```
-
-3. **Access the App**:
-   - **Frontend**: [http://localhost:5173](http://localhost:5173)
-   - **Backend API**: [http://localhost:8000](http://localhost:8000)
-   - **API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+2. **Access the App**:
+   See the [**RUN_GUIDE.md**](./RUN_GUIDE.md) for detailed instructions on starting the frontend and backend.
 
 ---
 
@@ -58,7 +49,6 @@ The easiest way to get the platform running is using Docker Compose.
 - **Middleware**: CORS enabled for seamless frontend integration.
 
 ### Dev & Deployment
-- **Containerization**: [Docker](https://www.docker.com/) & Docker Compose
 - **Version Control**: Git
 
 ---
@@ -78,8 +68,6 @@ Case-Study-Discussion/
 │   │   ├── components/ # Modular UI components
 │   │   ├── App.jsx     # Main application logic & routing
 │   │   └── index.css   # Global styles & Design System
-│   └── Dockerfile      # Frontend container build script
-├── docker-compose.yml  # Multi-container orchestration
 └── README.md           # You are here!
 ```
 

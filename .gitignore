@@ -1,0 +1,20 @@
+# General
+.DS_Store
+.env
+*.log
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+
+# Docker (Removed but keeping ignore patterns just in case)
+.dockerignore
+Dockerfile
+docker-compose.yml

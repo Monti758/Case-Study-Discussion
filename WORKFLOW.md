@@ -63,9 +63,8 @@ sequenceDiagram
     B-->>I: 200 OK
 ```
 
-## 5. Development Workflow
-- **Docker-Compose**: Orchestrates two services:
-    - `frontend`: Runs on Vite's dev server (Node.js).
-    - `backend`: Runs on Uvicorn (Python).
+## 5. System Architecture
+- **Frontend**: Runs on Vite's dev server (Node.js).
+- **Backend**: Runs on Uvicorn (Python).
 - **CORS**: The backend is configured to allow requests from the frontend origin, enabling seamless cross-port communication.
 - **Auto-Seeding**: On first run, the backend seeds the database with default users to allow immediate exploration.
