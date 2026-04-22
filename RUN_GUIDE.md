@@ -17,6 +17,7 @@ Follow these steps to run the services separately for development.
    ```powershell
    python -m venv venv
    # On Windows (PowerShell):
+   # If you get an 'Execution Policy' error, run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
    .\venv\Scripts\Activate.ps1
    
    # On Windows (Command Prompt):
