@@ -87,6 +87,7 @@ Case-Study-Discussion/
 
 ## 📖 Learn More
 For a detailed breakdown of the application workflow and technical architecture, check out:
+- [**RUN_GUIDE.md**](./RUN_GUIDE.md) - **Full instructions on how to run the project.**
 - [**WORKFLOW.md**](./WORKFLOW.md) - How the system works step-by-step.
 
 ---
