@@ -2,6 +2,13 @@
 
 This guide explains how to set up and run the CaseStudy Platform on your local machine.
 
+> [!IMPORTANT]
+> **Special Note for Windows Users (PowerShell)**
+> If you see an error like *"running scripts is disabled on this system"* when trying to run `npm` or activate your virtual environment, run this command **once** in your terminal to unlock it:
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+> ```
+
 ---
 
 ## 🛠 Manual Installation (Development)
