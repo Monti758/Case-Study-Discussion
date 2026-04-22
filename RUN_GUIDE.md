@@ -39,7 +39,7 @@ Follow these steps to run the services separately for development.
    ```
 4. Run the server:
    ```bash
-   uvicorn main:app --reload
+   python -m uvicorn main:app --reload
    ```
    *The backend will be live at `http://localhost:8000`.*
 
@@ -50,11 +50,11 @@ Follow these steps to run the services separately for development.
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   npm.cmd install
    ```
 3. Start the development server:
    ```bash
-   npm run dev
+   npm.cmd run dev
    ```
    *The frontend will be live at `http://localhost:5173`.*
 
